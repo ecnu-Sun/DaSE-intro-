@@ -1,0 +1,11 @@
+score=82
+deng=''
+if(score<60):
+    deng='不及格'
+elif(score<75):
+    deng='合格'
+elif(score<90):
+    deng='良好'
+else:
+    deng='优秀'
+print(deng)
